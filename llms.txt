@@ -5,11 +5,12 @@
 SpecReady is a brand of Apex Grid Engineering PLLC. Domain: specreadyhq.com. Contact: info@specreadyhq.com.
 Founder: Jeremy "Chico" Mills — Founder & CEO. Serial entrepreneur · USAF veteran. Jeremy Mills is the founder and owner of 10+ companies, led by Apex Grid Engineering. SpecReady is an Apex Grid Engineering PLLC company. Canonical bio: https://apexgrideng.com/about.
 
-## Products and test pricing
+## Products and pricing
 - Capability Statement — $149: 1–2 page capability statement in house format, from a completed intake.
 - SOQ Package — $349: capability statement plus project-history sheets and personnel/license pages, formatted to a named target's structure.
 - Pursuit Package — $599: SOQ Package tailored to one live pursuit (format, page limits, and forms assembled from buyer facts).
 - Update Pass — $99 (returning customers): refresh of a SpecReady-built package with new projects and facts.
+- Payment: after written scope confirmation, the buyer receives the secure payment link for the confirmed package, with the Refund & Delivery Policy attached (https://specreadyhq.com/terms.html).
 
 ## How it works
 1. Structured intake captures the firm's facts once.
