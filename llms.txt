@@ -10,7 +10,7 @@ Founder: Jeremy "Chico" Mills — Founder & CEO. Serial entrepreneur · USAF vet
 - SOQ Package — $349: capability statement plus project-history sheets and personnel/license pages, formatted to a named target's structure.
 - Pursuit Package — $599: SOQ Package tailored to one live pursuit (format, page limits, and forms assembled from buyer facts).
 - Update Pass — $99 (returning customers): refresh of a SpecReady-built package with new projects and facts.
-- Payment: after written scope confirmation, the buyer receives the secure payment link for the confirmed package, with the Refund & Delivery Policy attached (https://specreadyhq.com/terms.html).
+- Payment: order on the site through the order form — the order is recorded server-side with an order reference the moment it is placed, before payment; payment follows on a secure checkout tied to that order; the written scope confirmation follows within one business day with the Refund & Delivery Policy attached (https://specreadyhq.com/terms.html), and work begins on the buyer's written acceptance of that scope.
 
 ## How it works
 1. Structured intake captures the firm's facts once.
