@@ -18,6 +18,8 @@
 
 const http = require('http');
 const crypto = require('crypto');
+const fs = require('fs');
+const path = require('path');
 const { Pool } = require('pg');
 const Stripe = require('stripe');
 
@@ -219,4 +221,18 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, () => console.log(`specready-order-service listening on ${PORT}`));
+// Boot-time schema ensure: schema.sql is idempotent (CREATE TABLE IF NOT
+// EXISTS), so every deploy self-initializes a fresh database. A failure is
+// logged, never fatal — /health stays up and the error stays visible.
+async function ensureSchema() {
+  if (!process.env.DATABASE_URL) { console.log('DATABASE_URL unset — schema ensure skipped'); return; }
+  try {
+    const sql = fs.readFileSync(path.join(__dirname, 'schema.sql'), 'utf8');
+    await pool.query(sql);
+    console.log('schema ensured (orders, webhook_events)');
+  } catch (e) {
+    console.error('schema ensure FAILED:', e.message);
+  }
+}
+
+ensureSchema().then(() => server.listen(PORT, () => console.log(`specready-order-service listening on ${PORT}`)));
